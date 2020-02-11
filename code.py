@@ -4,7 +4,7 @@ import glob
 path =r''
 filenames = glob.glob(path + "/*.csv")
 # the new format for extracted data
-main=pd.read_csv('Copy of Data_extraction_template_Barrier1.csv')
+main=pd.read_csv('Data_extraction_format.csv')
 
 
 w=0
